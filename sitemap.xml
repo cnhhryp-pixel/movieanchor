@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://movieanchor.com/</loc></url>
-<url><loc>https://movieanchor.com/browse/</loc></url>
-<url><loc>https://movieanchor.com/about/</loc></url>
-<url><loc>https://movieanchor.com/genres/science-fiction/</loc></url>
-<url><loc>https://movieanchor.com/movies/inception/</loc></url>
-<url><loc>https://movieanchor.com/movies/interstellar/</loc></url>
-<url><loc>https://movieanchor.com/movies/the-dark-knight/</loc></url>
+  <url><loc>https://movieanchor.com/</loc></url>
+  <url><loc>https://movieanchor.com/browse/</loc></url>
+  <url><loc>https://movieanchor.com/about/</loc></url>
+  <url><loc>https://movieanchor.com/genres/</loc></url>
+  <url><loc>https://movieanchor.com/genres/science-fiction/</loc></url>
+  <url><loc>https://movieanchor.com/genres/action/</loc></url>
+  <url><loc>https://movieanchor.com/genres/fantasy/</loc></url>
+  <url><loc>https://movieanchor.com/genres/thriller/</loc></url>
+  <url><loc>https://movieanchor.com/years/</loc></url>
+  <url><loc>https://movieanchor.com/years/1990s/</loc></url>
+  <url><loc>https://movieanchor.com/years/2000s/</loc></url>
+  <url><loc>https://movieanchor.com/years/2010s/</loc></url>
+  <url><loc>https://movieanchor.com/years/2020s/</loc></url>
+  <url><loc>https://movieanchor.com/directors/</loc></url>
+  <url><loc>https://movieanchor.com/directors/christopher-nolan/</loc></url>
+  <url><loc>https://movieanchor.com/directors/denis-villeneuve/</loc></url>
+  <url><loc>https://movieanchor.com/collections/</loc></url>
+  <url><loc>https://movieanchor.com/collections/best-science-fiction-movies/</loc></url>
+  <url><loc>https://movieanchor.com/collections/mind-bending-movies/</loc></url>
+  <url><loc>https://movieanchor.com/movies/inception/</loc></url>
+  <url><loc>https://movieanchor.com/movies/interstellar/</loc></url>
+  <url><loc>https://movieanchor.com/movies/the-dark-knight/</loc></url>
+  <url><loc>https://movieanchor.com/movies/the-matrix/</loc></url>
+  <url><loc>https://movieanchor.com/movies/pulp-fiction/</loc></url>
+  <url><loc>https://movieanchor.com/movies/jurassic-park/</loc></url>
+  <url><loc>https://movieanchor.com/movies/gladiator/</loc></url>
+  <url><loc>https://movieanchor.com/movies/spirited-away/</loc></url>
+  <url><loc>https://movieanchor.com/movies/the-lord-of-the-rings-the-fellowship-of-the-ring/</loc></url>
+  <url><loc>https://movieanchor.com/movies/mad-max-fury-road/</loc></url>
+  <url><loc>https://movieanchor.com/movies/arrival/</loc></url>
+  <url><loc>https://movieanchor.com/movies/blade-runner-2049/</loc></url>
+  <url><loc>https://movieanchor.com/movies/parasite/</loc></url>
+  <url><loc>https://movieanchor.com/movies/dune/</loc></url>
 </urlset>
