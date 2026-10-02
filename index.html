@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MovieAnchor — Find Movies Worth Watching</title>
+  <meta name="description" content="Explore movies by genre, year, director and theme. MovieAnchor is a fast, simple movie discovery and reference site.">
+  <link rel="canonical" href="https://movieanchor.com/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <meta property="og:title" content="MovieAnchor — Find Movies Worth Watching">
+  <meta property="og:description" content="Browse movie guides, genres, years and curated discovery paths.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://movieanchor.com/">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/" aria-label="MovieAnchor home"><span class="brand-mark">M</span><span>MovieAnchor</span></a>
+  <nav class="nav" aria-label="Primary navigation">
+    <a href="/browse/">Browse</a>
+    <a href="/genres/science-fiction/">Genres</a>
+    <a href="/search/">Search</a>
+    <a href="/about/">About</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">MOVIE DISCOVERY, WITHOUT THE NOISE</p>
+      <h1>Find your next movie<br><span>and anchor the choice.</span></h1>
+      <p class="hero-text">Explore films through clear movie pages, useful filters and connected discovery paths — by genre, year, director and theme.</p>
+      <form class="hero-search" action="/search/" method="get">
+        <label class="sr-only" for="q">Search movies</label>
+        <input id="q" name="q" type="search" placeholder="Search a movie, director or genre…" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+      <div class="quick-links" aria-label="Popular browse shortcuts">
+        <span>Explore:</span>
+        <a href="/genres/science-fiction/">Science Fiction</a>
+        <a href="/browse/#1990s">1990s</a>
+        <a href="/browse/#2010s">2010s</a>
+      </div>
+    </div>
+    <aside class="hero-panel" aria-label="Featured collection">
+      <div class="panel-label">START HERE</div>
+      <h2>Three modern essentials</h2>
+      <a class="feature-row" href="/movies/inception/"><span class="rank">01</span><span><b>Inception</b><small>2010 · Sci‑Fi / Thriller</small></span><span>→</span></a>
+      <a class="feature-row" href="/movies/interstellar/"><span class="rank">02</span><span><b>Interstellar</b><small>2014 · Sci‑Fi / Drama</small></span><span>→</span></a>
+      <a class="feature-row" href="/movies/the-dark-knight/"><span class="rank">03</span><span><b>The Dark Knight</b><small>2008 · Crime / Drama</small></span><span>→</span></a>
+      <a class="text-link" href="/browse/">Browse the movie index →</a>
+    </aside>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <div><p class="eyebrow">DISCOVER</p><h2>Browse from a strong starting point</h2></div>
+      <a class="text-link" href="/browse/">View all →</a>
+    </div>
+    <div class="card-grid">
+      <a class="discovery-card" href="/genres/science-fiction/"><span class="card-kicker">GENRE</span><h3>Science Fiction</h3><p>Big ideas, future worlds, time, space and technology.</p><span class="card-arrow">Explore genre →</span></a>
+      <a class="discovery-card" href="/browse/#2000s"><span class="card-kicker">ERA</span><h3>2000s</h3><p>Browse landmark films released from 2000 through 2009.</p><span class="card-arrow">Browse decade →</span></a>
+      <a class="discovery-card" href="/browse/#2010s"><span class="card-kicker">ERA</span><h3>2010s</h3><p>A decade of ambitious blockbusters and original studio films.</p><span class="card-arrow">Browse decade →</span></a>
+    </div>
+  </section>
+
+  <section class="section split">
+    <div>
+      <p class="eyebrow">WHY MOVIEANCHOR</p>
+      <h2>A movie reference site built to stay useful.</h2>
+    </div>
+    <div class="principles">
+      <div><b>01</b><p><strong>Fast pages</strong><br>Static-first pages with no heavy app shell.</p></div>
+      <div><b>02</b><p><strong>Clear structure</strong><br>Movies connect to genres, years and related titles.</p></div>
+      <div><b>03</b><p><strong>Search-friendly</strong><br>Readable URLs, metadata, schema-ready pages and sitemaps.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div><a class="brand footer-brand" href="/"><span class="brand-mark">M</span><span>MovieAnchor</span></a><p>A simple place to explore movies and decide what to watch next.</p></div>
+  <div class="footer-links"><a href="/browse/">Browse</a><a href="/search/">Search</a><a href="/about/">About</a></div>
+  <div class="copyright">© <span id="year"></span> MovieAnchor</div>
+</footer>
+<script src="/app.js" defer></script>
+</body>
+</html>
